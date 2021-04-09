@@ -1,0 +1,34 @@
+.HomeStart_Style1 {
+  height: 300px;
+  /* background-image: url(../videos//Ayinla_Jamiu_ICT_Teacher-removebg-preview.png); */
+}
+
+.HomeStart_Style2 {
+  height: 300px;
+  /* background-image: url(../videos//Ayinla_Jamiu_ICT_Teacher-removebg-preview.png); */
+}
+
+.HomeStart_Style3 {
+  height: 300px;
+  /* background-image: url(../videos//Ayinla_Jamiu_ICT_Teacher-removebg-preview.png); */
+}
+
+.HomeStart_Style4 {
+  height: 300px;
+  /* background-image: url(../videos//Ayinla_Jamiu_ICT_Teacher-removebg-preview.png); */
+}
+
+@media screen and (max-width: 650px) {
+  .HomeStart_Style1 {
+    height: 200px;
+  }
+  .HomeStart_Style2 {
+    height: 200px;
+  }
+  .HomeStart_Style3 {
+    height: 200px;
+  }
+  .HomeStart_Style4 {
+    height: 200px;
+  }
+}

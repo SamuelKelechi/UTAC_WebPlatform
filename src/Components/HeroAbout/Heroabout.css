@@ -1,0 +1,33 @@
+.HeroAboutDiv {
+  height: 369px;
+  background-color: #123456;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.SubHeroAboutDiv {
+  /* width: 592px; */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .SubHeroAboutDiv {
+    width: 80%;
+  }
+}
+
+.BigText1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1;
+}

@@ -1,0 +1,41 @@
+.About3CardGeneralDiv{
+  width: 280px;
+  margin: 15px;
+  box-shadow: 3px 3px 2px gray;
+}
+
+.About3CardSubGeneralDiv{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CircleDiv{
+  height: 50px;
+  width: 50px;
+  background-color: #123456;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-top: -33px;
+  border: 7px solid #fff;
+}
+
+.Curiculm{
+  font-size: larger;
+  font-weight: bold;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cont{
+  margin-bottom: 20px;
+}
