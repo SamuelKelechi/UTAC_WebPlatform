@@ -10,16 +10,16 @@ const HomeStart = () => {
     <center style={{ marginTop: "80px" }}>
       <Carousel autoplay effect="fade">
         <div className="HomeStart_Style1">
-          <h3>Come</h3>
+          <div>Umbrella for the African Child</div>
         </div>
         <div className="HomeStart_Style2" >
-          <h3>Go</h3>
+          <div>We stand to protect the African child</div>
         </div>
         <div className="HomeStart_Style3" >
-          <h3>See</h3>
+          <div>Zero Hunger and Mentorship</div>
         </div>
         <div className="HomeStart_Style4" >
-          <h3>Collect</h3>
+          <div>We stand for Quality Education in Rural Area</div>
         </div>
       </Carousel>,
     </center>

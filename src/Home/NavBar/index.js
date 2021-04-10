@@ -15,7 +15,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
 import { Link } from "react-router-dom"
 
-import Logo from "../videos/LotsLogo-removebg-preview (3).png";
+import Logo from "../videos/UTAC-Logo.png";
 
 
 
@@ -44,7 +44,9 @@ const NavBar = ({ toggle }) => {
           <NavLogo to="/" onClick={toggleHome}>
             {/* <FaMagento style={{ marginRight: "10px" }} /> */}
             <img src={Logo} alt="Logo" style={{
-              width: "100px"
+              width: "70px",
+              height: "70px",
+              borderRadius: "35px"
             }} />
           </NavLogo>
           <MobileIcons onClick={toggle}>
