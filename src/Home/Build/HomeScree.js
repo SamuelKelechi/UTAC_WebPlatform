@@ -40,7 +40,7 @@ const HomeScreen = () => {
         <FeatureCard />
         <Love text="Our Community" bg="#FAB43F" img={love} />
         <MapHolder />
-        <Love text="Meet Our Team" bg="#3863DF" img={love} bg1="#F4F6FC" />
+        <Love text="Meet Our Founder" bg="#3863DF" img={love} bg1="#F4F6FC" />
         <Story />
         <Total />
         <SuccessStory />

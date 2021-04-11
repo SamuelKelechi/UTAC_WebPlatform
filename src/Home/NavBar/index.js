@@ -44,9 +44,9 @@ const NavBar = ({ toggle }) => {
           <NavLogo to="/" onClick={toggleHome}>
             {/* <FaMagento style={{ marginRight: "10px" }} /> */}
             <img src={Logo} alt="Logo" style={{
-              width: "70px",
-              height: "70px",
-              borderRadius: "35px"
+              width: "60px",
+              height: "60px",
+              borderRadius: "30px"
             }} />
           </NavLogo>
           <MobileIcons onClick={toggle}>

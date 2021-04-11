@@ -6,18 +6,16 @@ const Capture = () => {
       <center
         style={{
           width: "70%",
-          marginTop: "40px",
+          marginTop: "30px",
           fontSize: "22px",
           lineHeight: "1.15",
           marginBottom: "40px",
         }}
       >
-        LOTS charity foundation is a registered charity
-        organization that caters to the physiological
-        [feeding, clothing and shelter],
-        social, educational, psychological, medical,
-        and emotional needs of street kids and
-        vulnerable children.
+        <h3>Vision</h3>
+        We see an Africa where every child’s is
+        fed and educated. An Africa where talent
+        is nurtured and mentorship is paramount.
       </center>
     </div>
   );

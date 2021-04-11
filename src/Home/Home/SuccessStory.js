@@ -8,47 +8,50 @@ const SuccessStory = () => {
         display: "flex",
         justifyContent: "center",
         flexWrap: "wrap",
-        marginTop: "40px",
+        marginTop: "20px",
         marginBottom: "20px ",
       }}
     >
+
+
       <div
         style={{
           width: "300px",
           marginLeft: "10px",
-          height: "150px",
+          // height: "150px",
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
           margin: "5px"
         }}
       >
-        <h2
-          style={{
-            margin: "0",
-          }}
-        >
-          PILOT PROJECT ON ADVOCATING
-        </h2>
+        <div>
+          My association with UTAC started years ago when it started
+          as Umbrella Ghana and I've watched it grow stronger ever since.
+          Apart from the passionate and enthusiastic volunteer base it
+          has the true essence of selflessness reflects in the activities
+          acting as an enabler for creating a better society, and a better
+          tomorrow. Right from working for underprivileged, or simple
+          acts of kindness like spending quality time with the terminally
+          ill or elderly, and to see their faces light up with smiles.
+        </div>
         <div
           style={{
             backgroundColor: "#5BB3B7",
             width: "50px",
             height: "5px",
-            marginBottom: "20px ",
+            marginTop: "20px ",
           }}
         >
-          {" "}
         </div>
-        <Link to="/event" style={{
-          textDecoration: "none",
-          color: "rgb(16,21,34)",
-          cursor: "pointer",
-        }}>
-          <div>
-            We are happy to announce a 6 months pilot project on Advocating the implementation of Community...
-        </div>
-        </Link>
+        <h2
+          style={{
+            margin: "0",
+          }}
+        >
+          Ukavwe Egwolo Joan
+        </h2>
+
       </div>
 
 
@@ -57,40 +60,42 @@ const SuccessStory = () => {
         style={{
           width: "300px",
           marginLeft: "10px",
-          height: "150px",
+          // height: "150px",
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
           margin: "5px"
         }}
       >
-        <h2
-          style={{
-            margin: "0",
-          }}
-        >
-          FIRST SESSION ON COMMUNITY GOAL
-        </h2>
+        <div>
+          UTAC is one of the Best youth Organization in Africa and for me in
+          Nigeria 🇳🇬. The founder Samuel kwame Mensah is very humble and
+          leads by example. My organization have partnered with UTAC and
+          anytime we embark on a projects it’s a thing of joy knowing God’s
+          love will be felt. As the founder of Magho foundation, I will say
+          I am proud to be a part of UTAC projects.
+        </div>
+        <br />
+        <br />
         <div
           style={{
             backgroundColor: "#5BB3B7",
             width: "50px",
             height: "5px",
-            marginBottom: "20px ",
+            marginTop: "20px ",
           }}
         >
-          {" "}
         </div>
-        <Link to="/event" style={{
-          textDecoration: "none",
-          color: "rgb(16,21,34)",
-          cursor: "pointer",
-        }}>
-          <div>
-            Yesterday we held our first session at the Ajegunle Ikorodu #community to validate our workplan and ensure that this plan is...
-        </div>
-        </Link>
+        <h2
+          style={{
+            margin: "0",
+          }}
+        >
+          William Apau (FOUNDER, MAGHO FOUNDATION)
+        </h2>
+
       </div>
+
 
     </div>
   );

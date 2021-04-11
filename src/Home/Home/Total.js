@@ -9,7 +9,7 @@ const Total = () => {
           marginTop: "30px",
         }}
       >
-        Updates
+        Testimonial
       </center>
     </div>
   );

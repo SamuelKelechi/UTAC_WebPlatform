@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 
+
+import Logo from '../../videos/UTAC-Logo.png'
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -95,7 +97,19 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialMediaLogo onClick={toggleHome}>
-              LOTS CHARITY FOUNDATION
+              <div style={{ textAlign: "center" }}>
+                <div>
+                  <img src={Logo} alt="logo" style={{
+                    height: "60px",
+                    width: "60px",
+                    borderRadius: "30px",
+                    margin: "0",
+                  }} />
+                </div>
+                <div style={{ margin: "none", textAlign: "center" }}>
+                  UMBRELLA FOR THE AFRICAN CHILD
+                </div>
+              </div>
             </SocialMediaLogo>
             <WebsiteRight
               target="new page"

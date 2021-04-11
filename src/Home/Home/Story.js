@@ -54,7 +54,7 @@ const Story = () => {
         </div>
       </div>
 
-
+      {/* 
 
       <div
         style={{
@@ -93,9 +93,9 @@ const Story = () => {
           <div><b>Mr Samuel Oparaeke</b></div>
         </div>
       </div>
+ */}
 
-
-
+      {/* 
       <div
         style={{
           width: "300px",
@@ -132,11 +132,11 @@ const Story = () => {
           <h3>ASST. HEAD OF ADMIN</h3>
           <div><b>Mr. Vitus Nwaogu</b></div>
         </div>
-      </div>
+      </div> */}
 
 
 
-      <div
+      {/* <div
         style={{
           width: "300px",
           // backgroundColor: "blue",
@@ -172,7 +172,7 @@ const Story = () => {
           <h3>HEAD ICT</h3>
           <div><b>Ayinla Jamiu</b></div>
         </div>
-      </div>
+      </div> */}
 
 
 
