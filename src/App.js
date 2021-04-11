@@ -8,6 +8,7 @@ import ContactUs from "./Contact/ContactUs";
 import HomeScreen from "./Home/Build/HomeScree";
 import EventFull from "./Event/EventFull"
 import AdminPage from './Components/AdminPage';
+import Testimonias from './Components/Testimonial';
 
 
 
@@ -21,8 +22,8 @@ function App() {
           <Route path="/about" exact component={AboutPage} />
           <Route path="/contact" exact component={ContactUs} />
           <Route path="/eventfull/:id" component={EventFull} />
-          <Route path="/lotsadmin2021" exact component={AdminPage} />
-          {/* <Route path="/blog" exact component={Blog} /> */}
+          <Route path="/utacadmin2021" exact component={AdminPage} />
+          <Route path="/testimony" exact component={Testimonias} />
         </Switch>
       </Router>
     </>

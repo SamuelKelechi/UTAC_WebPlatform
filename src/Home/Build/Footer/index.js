@@ -142,7 +142,7 @@ const Footer = () => {
                 <LinkedInIcon />
               </SocialIconLink> */}
 
-              <SocialIconLink href="https://www.instagram.com/lotscharityfoundation0/" target="_blank" aria-label="Instagram">
+              <SocialIconLink href="https://www.instagram.com/_u.t.a.c/?hl=en" target="_blank" aria-label="Instagram">
                 <InstagramIcon />
               </SocialIconLink>
             </SocialIcon>

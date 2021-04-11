@@ -15,6 +15,7 @@ const Partner = () => {
         flexWrap: "wrap",
         justifyContent: "center",
         width: "100%",
+        marginTop: "10px"
       }}
     >
       <div

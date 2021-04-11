@@ -1,3 +1,5 @@
+import { ButtonBase } from "@material-ui/core";
+import { Button } from "antd";
 import React from "react";
 import { Link } from 'react-router-dom'
 
@@ -93,8 +95,16 @@ const SuccessStory = () => {
         >
           William Apau (FOUNDER, MAGHO FOUNDATION)
         </h2>
-
+        <Link to="/testimony">
+          <Button style={{
+            backgroundColor: "#5BB3B7",
+            color: "white"
+          }}>
+            Read More..
+        </Button>
+        </Link>
       </div>
+
 
 
     </div>

@@ -21,7 +21,7 @@ const HomeStart = () => {
         <div className="HomeStart_Style4" >
           <div>We stand for Quality Education in Rural Area</div>
         </div>
-      </Carousel>,
+      </Carousel>
     </center>
   );
 };

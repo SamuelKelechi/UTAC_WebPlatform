@@ -22,7 +22,7 @@ const Love = ({ bg, text, img, bg1 }) => {
             justifyContent: "center",
             alignItems: "center",
             marginTop: "20px",
-            marginBottom: "30px",
+            marginBottom: "15px",
           }}
         >
           <img
@@ -40,11 +40,11 @@ const Love = ({ bg, text, img, bg1 }) => {
           style={{
             fontSize: "35px",
             // marginBottom: "50px",
-            padding: "10px 0",
+            // padding: "5px 0",
+            marginBottom: "0"
           }}
         >
-          {" "}
-          {text}{" "}
+          {text}
         </div>
       </center>
     </div>

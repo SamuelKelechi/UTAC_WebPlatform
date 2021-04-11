@@ -13,9 +13,15 @@ const Capture = () => {
         }}
       >
         <h3>Vision</h3>
-        We see an Africa where every child’s is
+        We see an Africa where every child is
         fed and educated. An Africa where talent
         is nurtured and mentorship is paramount.
+        <br />
+        <br />
+        <br />
+
+        <h3>Mission</h3>
+        Zero Hunger <br />and<br /> Mentorship
       </center>
     </div>
   );

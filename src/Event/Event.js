@@ -4,6 +4,7 @@ import NavBar from "../Home/NavBar/index"
 import SideBar from "../Home/SideBar/SideBar"
 import Footer from "../Home/Build/Footer/index"
 import { Link } from 'react-router-dom'
+import moment from 'moment'
 
 
 import { app } from "../Base";
@@ -34,7 +35,7 @@ function Event() {
 
   const getData = async () => {
     await db
-      .collection("lots")
+      .collection("utac")
       // .orderBy("date", "desc")
       .onSnapshot((snapshot) => {
         const item = [];
@@ -96,15 +97,16 @@ function Event() {
             }}
           >
             <div className="up_event">FEATURED EVENTS</div>
-            <div className="events">Events</div>
+            <div className="events">Blog</div>
           </div>
         </div>
 
         <div className="card_holder">
-          {uploads.map(({ id, avatar, title, content }) => (
+          {uploads.map(({ id, avatar, title, content, story, date }) => (
             <Card key={id} className={classes.root}>
               <CardActionArea>
                 <Link to={`/eventfull/${id}`}>
+
                   <div
                     style={{
                       height: "200px",
@@ -119,7 +121,9 @@ function Event() {
                   <Typography gutterBottom variant="h5" component="h2" style={{
                     textTransformed: "uppercase"
                   }}>
+                    <p style={{ fontSize: "13px" }}>Posted {moment(date).fromNow()}</p>
                     {title}
+
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     {content}

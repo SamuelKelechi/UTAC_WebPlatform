@@ -94,17 +94,17 @@ export default function EventFull() {
                 {/* <MoreVertIcon /> */}
               </IconButton>
             }
-            title={uploads && uploads.title}
+          // title={uploads && uploads.title}
           // subheader="September 14, 2016"
           />
           <CardMedia
             className={classes.media}
-            image={uploads && uploads.avatar}
+            // image={uploads && uploads.avatar}
             title="Paella dish"
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              {uploads && uploads.content}
+              {/* {uploads && uploads.content} */}
             </Typography>
           </CardContent>
           <CardActions disableSpacing>
@@ -133,7 +133,7 @@ export default function EventFull() {
                 minutes.
           </Typography> */}
               <Typography paragraph>
-                {uploads && uploads.story}
+                {/* {uploads && uploads.story} */}
               </Typography>
               {/* <Typography paragraph>
                 Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook

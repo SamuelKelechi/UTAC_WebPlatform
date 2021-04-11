@@ -1,6 +1,6 @@
 import React from "react";
 import admin from "../videos/Mr_Sam_Head_of_Admin-removebg-preview.png";
-import founder from "../videos/Founder_Real-removebg-preview.png";
+import founder from "../videos/UTAC_Founder.png";
 import ict from "../videos/Ayinla_Jamiu_ICT_Teacher-removebg-preview.png";
 import asstAdmin from "../videos/Nwaogu_Vitus_English_Teacher-removebg-preview.png";
 
@@ -9,10 +9,9 @@ const Story = () => {
     <div
       style={{
         display: "flex",
-        flexWrap: "wrap",
+        // flexWrap: "wrap",
         justifyContent: "center",
         backgroundColor: "#F4F6FC",
-        paddingTop: "20px",
       }}
     >
 
@@ -20,9 +19,10 @@ const Story = () => {
         style={{
           width: "300px",
           // backgroundColor: "blue",
-          margin: "10px",
+          margin: "5px",
           display: "flex",
-          marginTop: "0px"
+          marginTop: "0px",
+          // height: "400px",
         }}
       >
         <div>
@@ -30,8 +30,8 @@ const Story = () => {
             src={founder}
             alt="founder"
             style={{
-              width: "250px",
-              height: "280px",
+              width: "100%",
+              height: "400px",
               objectFit: "contain",
             }}
           />
@@ -39,18 +39,18 @@ const Story = () => {
         <div
           style={{
             position: "relative",
-            width: "60px",
+            width: "80px",
             // backgroundColor: "blue",
             display: "flex",
-            flexDirection: "column",
-            fontSize: "12px",
-            right: "40px",
+            height: "70px",
+            fontSize: "15px",
+            right: "60px",
             textAlign: "left",
-            top: "27px"
+            top: "100px"
           }}
         >
-          <h3>FOUNDER</h3>
-          <div><b>Tolulope Sangosanya</b></div>
+
+          <div><b><h3>SAMUEL MENSAH</h3></b></div>
         </div>
       </div>
 
