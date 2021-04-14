@@ -8,7 +8,7 @@ import moment from 'moment'
 
 
 import { app } from "../Base";
-import pic from "../img/Events.jpg";
+import pic from "../Home/videos/OutReach.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -76,9 +76,9 @@ function Event() {
 
         <div className="container">
           <div className="body_name">
-            <div style={{ color: "#036e8b" }}>FEATURE EVENTS</div>
+            <div style={{ color: "#036e8b" }}>OUR EVENTS</div>
             <div className="feeding">
-              SEE SOME OF OUR EVENTS AND REACHOUT
+              SOME OF OUR EVENTS AND OUTREACH
           </div>
           </div>
           <div className="body_image">

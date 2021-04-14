@@ -16,8 +16,9 @@ function TheAbout1() {
         fontWeight: "bold",
         textAlign: "center"
       }}>
-        LOTS CHARITY FOUNDATION
+        UMBRELLA FOR THE AFRICAN CHILD
       </div>
+      <br />
 
       <div style={{
         fontSize: "20px",
@@ -29,19 +30,19 @@ function TheAbout1() {
         margin: "10px"
       }}>
 
-        LOTS charity foundation is a registered charity organization that caters to the physiological [feeding, clothing and shelter], social, educational, psychological, medical, and emotional needs of street kids and vulnerable children. Our area of focus now in Ajeromi-ifelodun local government in a community called ‘DUSTBIN ESTATE’ in Ajegunle, Lagos state. As it ‘s name connotes, Dustbin estate is an area of refuse; a settlement in which its inhabitants build their house with planks on refuse dumps
+        Umbrella for the African Child laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae
         <br />
         <br />
         <br />
 
 
-        Address
-        Flat 1, Emmanuel villa, No. 48, Odofin akinsanya street, off mechanic bus stop, Awodi-ora, Ajeromi Ifelodun L.G.A, Ajegunle, Apapa
+        Office Address <br />
+        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
         <br />
         <br />
 
         Email:
-        LOTScharityfoundation0@gmail.com
+        quominusidquod@gmail.com
 
           </p>
       <br />

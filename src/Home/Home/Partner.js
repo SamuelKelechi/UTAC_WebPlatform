@@ -4,7 +4,7 @@ import bbc from "../videos/bbc.png";
 import fc from "../videos/fc.png";
 import ms from "../videos/ms.png";
 import bd from "../videos/bd.png";
-import mc from "../videos/mc.png";
+import mc from "../videos/DFTS_Logo.png";
 import google from "../videos/google.png";
 
 const Partner = () => {
@@ -46,6 +46,19 @@ const Partner = () => {
 
       <div>
         <img
+          src={mc}
+          alt="Partners"
+          style={{
+            width: "200px",
+            height: "60px",
+            objectFit: "contain",
+            // backgroundColor: "red",
+          }}
+        />
+      </div>
+
+      <div>
+        <img
           src={google}
           alt="Partners"
           style={{
@@ -70,18 +83,7 @@ const Partner = () => {
         />
       </div>
 
-      <div>
-        <img
-          src={mc}
-          alt="Partners"
-          style={{
-            width: "200px",
-            height: "60px",
-            objectFit: "contain",
-            // backgroundColor: "red",
-          }}
-        />
-      </div>
+
 
       <div>
         <img
@@ -96,7 +98,7 @@ const Partner = () => {
         />
       </div>
 
-      <div>
+      {/* <div>
         <img
           src={bbc}
           alt="Partners"
@@ -107,7 +109,7 @@ const Partner = () => {
             // backgroundColor: "red",
           }}
         />
-      </div>
+      </div> */}
 
       <div>
         <img

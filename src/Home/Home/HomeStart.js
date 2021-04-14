@@ -13,7 +13,7 @@ const HomeStart = () => {
           <div>Umbrella for the <br />African Child</div>
         </div>
         <div className="HomeStart_Style2" >
-          <div>We stand <br />to protect <br /> the African child</div>
+          <div className="HomeStart_Style22">We stand <br />to protect <br /> the African child</div>
         </div>
         <div className="HomeStart_Style3" >
           <div>Zero Hunger<br /> and <br />Mentorship</div>

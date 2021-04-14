@@ -6,7 +6,9 @@
   background-position: center;
   color: rgb(255, 36, 54);
   font-weight: bold;
-  font-size:40px
+  font-size:40px;
+  opacity: 0.8;
+
 }
 
 .HomeStart_Style2 {
@@ -17,7 +19,9 @@
   color: rgb(247,234,45);
   font-weight: bold;
   font-size:40px;
+  opacity: 0.8;
   background-image: url(../videos/Cover2.jpeg);
+
 }
 
 .HomeStart_Style3 {
@@ -29,6 +33,7 @@
   color: rgb(236,225,221);
   font-weight: bold;
   font-size:40px;
+  opacity: 0.8;
 }
 
 .HomeStart_Style4 {
@@ -40,6 +45,7 @@
   color:rgb(2, 255, 15);
   font-weight: bold;
   font-size:30px;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 650px) {

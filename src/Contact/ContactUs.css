@@ -18,7 +18,7 @@
 .thefirsPart {
   width: 100%;
   height: 450px;
-  background-image: url("./Image/charity.jpg");
+  background-image: url("./Image/in\ touch.jpg");
   background-attachment: scroll;
   background-size: cover;
   background-origin: center;
@@ -37,6 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .getInTouch {

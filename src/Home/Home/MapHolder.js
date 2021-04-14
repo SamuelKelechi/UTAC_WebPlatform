@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../videos/Founder.png";
+import bg from "../videos/community.jpeg";
 
 const MapHolder = () => {
   return (
@@ -23,7 +23,7 @@ const MapHolder = () => {
             width: "100%",
             objectFit: "contain",
             // marginTop: "50px",
-            height: "280px"
+            height: "220px"
           }}
         />
       </div>
@@ -37,11 +37,11 @@ const MapHolder = () => {
       >
         <h2>10+ Staffs/Volunteers</h2>
         <p>
-          With our dedicated workers and volunteers, the kids receive every care and training they need.
+          dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.
         </p>
-        <h2>500+ Kids in the Community</h2>
+        <h2>500+ Kids Reached</h2>
         <p>
-          Over five hundred children residing in the Community with most of them not having access to some of their basic needs.
+          est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
         </p>
         {/* <h2>60+ Countries</h2>
         <p>

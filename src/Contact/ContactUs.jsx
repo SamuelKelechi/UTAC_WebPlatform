@@ -26,12 +26,10 @@ function ContactUs() {
         <div className="contactUscontainer">
           <div className="thefirsPart">
             <div className="backGoundOpacity">
-              {/* <div className="thecontent"> */}
               <div className="getInTouch">
                 <h1>Get in touch</h1>
                 <h4>We want to hear from you. Here is how you can reach us...</h4>
               </div>
-              {/* </div> */}
             </div>
           </div>
           <div className="theMainPart">
@@ -41,7 +39,7 @@ function ContactUs() {
               </div>
               <h3>Talk to Us</h3>
               <p>Interested in helping a child contact us now</p>
-              <Link className="Link">08034765170</Link>
+              <Link className="Link">+2348055794628</Link>
             </div>
 
             <div className="theCard">

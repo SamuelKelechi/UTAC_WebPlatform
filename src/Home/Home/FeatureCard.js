@@ -16,29 +16,29 @@ const FeatureCard = () => {
       }}
     >
       <CardProps
-        header="Our Story"
-        detail="We caters to the physiological [feeding, clothing and shelter], social, educational, psychological, medical, and emotional needs of street kids and vulnerable children."
+        header="Who We Are"
+        detail="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
         img={checkmark}
         bg="#F9AF2F"
       />
 
       <CardProps
-        header="Our Location"
-        detail="Our area of focus now in Ajeromi-ifelodun local government in a community called ‘DUSTBIN ESTATE’ in Ajegunle, Lagos state."
+        header="What We Do"
+        detail="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
         img={global}
         bg="#3863DF"
       />
 
       <CardProps
-        header="Purpose-Driven Location"
-        detail="‘DUSTBIN ESTATE’ as it ‘s name connotes, is an area of refuse; a settlement in which its inhabitants build their house with planks on refuse dumps."
+        header="How We Work"
+        detail="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque"
         img={data}
         bg="#49AAAF"
       />
 
       <CardProps
-        header="Dedicated Team"
-        detail="We have a very dedicated team working round the clock with us. Our staffs and volunteers are passionate about what we do here at LOTS Foundation."
+        header="Our Team"
+        detail="aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam"
         img={hands}
         bg="#1F2C46"
       />

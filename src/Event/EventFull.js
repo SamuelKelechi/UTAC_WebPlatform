@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from "react-router-dom";
 import { app } from "../Base";
+import moment from 'moment';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -22,7 +23,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
-const db = app.firestore().collection("lots");
+const db = app.firestore().collection("utac");
 
 
 const useStyles = makeStyles((theme) => ({
@@ -86,7 +87,7 @@ export default function EventFull() {
           <CardHeader
             avatar={
               <Avatar aria-label="recipe" className={classes.avatar}>
-                lots
+                utac
               </Avatar>
             }
             action={
@@ -94,8 +95,8 @@ export default function EventFull() {
                 {/* <MoreVertIcon /> */}
               </IconButton>
             }
-          // title={uploads && uploads.title}
-          // subheader="September 14, 2016"
+            title={uploads && uploads.title}
+            subheader={moment().fromNow()}
           />
           <CardMedia
             className={classes.media}

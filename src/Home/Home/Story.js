@@ -50,7 +50,7 @@ const Story = () => {
           }}
         >
 
-          <div><b><h3>SAMUEL MENSAH</h3></b></div>
+          <div><b><h3>SAMUEL KWAME MENSAH</h3></b></div>
         </div>
       </div>
 
