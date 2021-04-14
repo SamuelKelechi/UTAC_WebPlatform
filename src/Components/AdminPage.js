@@ -17,6 +17,7 @@ import { useHistory, Link } from "react-router-dom";
 
 
 import { app } from "../Base"
+import TextArea from 'antd/lib/input/TextArea';
 
 const db = app.firestore();
 
@@ -58,13 +59,12 @@ function AdminPage() {
   return (
     <div style={{
       height: "90%",
-      width: "90%",
+      width: "100%",
       display: "flex",
       justifyContent: "center",
       // backgroundColor: "blue",
       flexDirection: "column"
     }}>
-      This is Me
       <center>
         <div className="card_holder">
           <div
@@ -74,71 +74,54 @@ function AdminPage() {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
+              width: "90%"
             }}
           >
             <h4
               className="card_name"
               style={{ marginTop: "200px", backgroundColor: "red", height: 0, marginBottom: "30px" }}
             >
-              Please Fill In Your Details
+              Fill In to Update Your Blog
           </h4>
 
-            <Input
-              value={title}
-              onChange={(e) => {
-                setTitle(e.target.value);
-              }}
-              // style={{ backgroundColor: "red", zIndex: "" }}
-              style={{ marginTop: "10px", zIndex: '9' }}
-              size="large"
-              placeholder="Title"
-              name=" name"
-              prefix={<UserOutlined />}
-            />
 
-            <Input
-              value={story}
-              onChange={(e) => {
-                setStory(e.target.value);
-              }}
-              style={{ backgroundColor: "red", fontSize: "5px", zIndex: '-999px' }}
-              // style={{ marginTop: "15px" }}
-              size="large"
-              placeholder="Story"
-              prefix={<InboxOutlined />}
-            />
-            <Input
-              value={content}
-              onChange={(e) => {
-                setContent(e.target.value);
-              }}
-              style={{ backgroundColor: "red", fontSize: "5px", zIndex: '-999px' }}
-              // style={{ marginTop: "15px" }}
-              size="large"
-              placeholder="Gender"
-              prefix={<UserSwitchOutlined />}
-            />
-
-            {/* <Input
-            value={num}
-            onChange={(e) => {
-              setNum(e.target.value);
-            }}
-            style={{ backgroundColor: "red", zIndex: '-999px' }}
-            style={{ marginTop: "15px" }}
-            size="large"
-            placeholder="+234 565 75646"
-            prefix={<CallOutlinedIcon />}
-          /> */}
             <div>Upload An Image</div>
             <input
               onChange={ImageUpload}
               className="input_file"
               type="file"
-              style={{ marginTop: "50px" }}
+              style={{ marginTop: "10px" }}
+            />
+            <Input
+              value={title}
+              onChange={(e) => {
+                setTitle(e.target.value);
+              }}
+              style={{ marginTop: "10px", zIndex: '9' }}
+              size="large"
+              placeholder="Title"
+              name=" name"
             />
 
-            <strong style={{ width: '280px', textAlign: 'center', fontSize: 'small', marginTop: '10px' }}>Please Wait For 5 seconds While Your Information Is Been Processed Before You Click Summit😏 </strong>
+            <TextArea
+              value={content}
+              onChange={(e) => {
+                setStory(e.target.value);
+              }}
+              style={{ fontSize: "15px", zIndex: '-999px', marginTop: "10px", height: "60px" }}
+              placeholder="Input Short Blog Story"
+            />
+
+            <TextArea
+              value={story}
+              onChange={(e) => {
+                setStory(e.target.value);
+              }}
+              style={{ fontSize: "15px", zIndex: '-999px', marginTop: "10px", height: "100px" }}
+              placeholder="Input your full blog story"
+            />
+
+            <strong style={{ width: '280px', textAlign: 'center', fontSize: 'small', marginTop: '10px' }}>Please Wait For 5 seconds While Your Information Is Being Processed Before You Click on Upload Blog😏 </strong>
 
             <Button
               onClick={() => {

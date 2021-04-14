@@ -42,7 +42,7 @@
   background-image: url(../videos/Cover-4.jpg);
   background-size:cover;
   background-position:inherit;
-  color:rgb(2, 255, 15);
+  color:rgb(2, 15, 3);
   font-weight: bold;
   font-size:30px;
   opacity: 0.8;
@@ -50,31 +50,31 @@
 
 @media screen and (max-width: 650px) {
   .HomeStart_Style1 {
-    height: 200px;
-    padding-top: 125px;
+    height: 300px;
+    padding-top: 160px;
     padding-right: 0;
     padding-left: 0;
-    font-size: 15px;
+    font-size: 30px;
   }
   .HomeStart_Style2 {
-    height: 200px;
-    padding-top: 100px;
+    height: 300px;
+    padding-top: 140px;
     padding-right: 0;
     padding-left: 0;
-    font-size: 15px;
+    font-size: 25px;
   }
   .HomeStart_Style3 {
-    height: 200px;
-    padding-top: 100px;
+    height: 300px;
+    padding-top: 140px;
     padding-right: 0;
     padding-left: 0;
-    font-size: 15px;
+    font-size: 25px;
   }
   .HomeStart_Style4 {
-    height: 200px;
-    padding-top: 130px;
+    height: 300px;
+    padding-top: 135px;
     padding-right: 0;
     padding-left: 0;
-    font-size: 14px;
+    font-size: 30px;
   }
 }
