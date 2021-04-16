@@ -1,25 +1,25 @@
 .HomeStart_Style1 {
   height: 450px;
-  padding-top: 300px;
+  padding-top: 240px;
   background-image: url(../videos/Cover1.jpeg);
   background-size: cover;
   background-position: center;
   color: rgb(255, 36, 54);
   font-weight: bold;
-  font-size:40px;
-  opacity: 0.8;
+  font-size:60px;
+  opacity: 0.9;
 
 }
 
 .HomeStart_Style2 {
   height: 450px;
-  padding-left: 480px;
+  padding-left: 490px;
   background-size: cover;
   background-position:inherit;
   color: rgb(247,234,45);
   font-weight: bold;
-  font-size:40px;
-  opacity: 0.8;
+  font-size:60px;
+  opacity: 0.9;
   background-image: url(../videos/Cover2.jpeg);
 
 }
@@ -32,8 +32,8 @@
   background-position: center;
   color: rgb(236,225,221);
   font-weight: bold;
-  font-size:40px;
-  opacity: 0.8;
+  font-size:60px;
+  opacity: 0.9;
 }
 
 .HomeStart_Style4 {
@@ -44,8 +44,8 @@
   background-position:inherit;
   color:rgb(2, 15, 3);
   font-weight: bold;
-  font-size:30px;
-  opacity: 0.8;
+  font-size:60px;
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 650px) {
@@ -72,7 +72,7 @@
   }
   .HomeStart_Style4 {
     height: 300px;
-    padding-top: 135px;
+    padding-top: 140px;
     padding-right: 0;
     padding-left: 0;
     font-size: 30px;

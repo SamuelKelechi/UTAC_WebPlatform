@@ -15,6 +15,7 @@ import Total from "../Home/Total";
 import Trusted from "./TrustedBy";
 import NavBar from "../NavBar/index"
 import SideBar from "../SideBar/SideBar"
+import NewsFlash from "../../Event/NewsFlash"
 
 
 
@@ -44,6 +45,7 @@ const HomeScreen = () => {
         <Story />
         <Total />
         <SuccessStory />
+        <NewsFlash />
         <Footer />
       </center>
     </div>

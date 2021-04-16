@@ -20,8 +20,8 @@ const Partner = () => {
     >
       <div
         style={{
-          width: "100px",
-          height: "60px",
+          width: "110px",
+          height: "80px",
           display: "flex",
           alignItems: "center",
           color: "#F9AF2F",
@@ -36,8 +36,8 @@ const Partner = () => {
           src={bd}
           alt="Partners"
           style={{
-            width: "100px",
-            height: "60px",
+            width: "110px",
+            height: "80px",
             objectFit: "contain",
             // backgroundColor: "red",
           }}
@@ -50,7 +50,7 @@ const Partner = () => {
           alt="Partners"
           style={{
             width: "200px",
-            height: "60px",
+            height: "80px",
             objectFit: "contain",
             // backgroundColor: "red",
           }}
@@ -63,7 +63,7 @@ const Partner = () => {
           alt="Partners"
           style={{
             width: "200px",
-            height: "60px",
+            height: "80px",
             objectFit: "contain",
             // backgroundColor: "red",
           }}
@@ -76,7 +76,7 @@ const Partner = () => {
           alt="Partners"
           style={{
             width: "200px",
-            height: "60px",
+            height: "80px",
             objectFit: "contain",
             // backgroundColor: "red",
           }}
@@ -91,7 +91,7 @@ const Partner = () => {
           alt="Partners"
           style={{
             width: "200px",
-            height: "60px",
+            height: "80px",
             objectFit: "contain",
             // backgroundColor: "red",
           }}
@@ -117,7 +117,7 @@ const Partner = () => {
           alt="Partners"
           style={{
             width: "200px",
-            height: "60px",
+            height: "80px",
             objectFit: "contain",
             // backgroundColor: "red",
           }}

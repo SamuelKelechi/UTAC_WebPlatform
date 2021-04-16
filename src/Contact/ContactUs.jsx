@@ -48,7 +48,7 @@ function ContactUs() {
               </div>
               <h3>Contact Child Support</h3>
               <p>
-                Sometimes you need a ittle help from your friends, a little touch
+                Sometimes you need a little help from your friends, a little touch
                 of love can change a life forever
             </p>
               <button>Contact Support</button>

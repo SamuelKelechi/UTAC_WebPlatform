@@ -36,7 +36,8 @@ function Event() {
   const getData = async () => {
     await db
       .collection("utac")
-      // .orderBy("date", "desc")
+      .orderBy("date", "desc")
+      .limit(15)
       .onSnapshot((snapshot) => {
         const item = [];
         snapshot.forEach((doc) => {
