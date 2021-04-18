@@ -106,7 +106,7 @@ function AdminPage() {
             <TextArea
               value={content}
               onChange={(e) => {
-                setStory(e.target.value);
+                setContent(e.target.value);
               }}
               style={{ fontSize: "15px", zIndex: '-999px', marginTop: "10px", height: "60px" }}
               placeholder="Input Short Blog Story"

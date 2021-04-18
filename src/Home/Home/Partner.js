@@ -1,11 +1,11 @@
 import React from "react";
-import apple from "../videos/apple.png";
-import bbc from "../videos/bbc.png";
-import fc from "../videos/fc.png";
-import ms from "../videos/ms.png";
+// import apple from "../videos/apple.png";
+// import bbc from "../videos/bbc.png";
+// import fc from "../videos/fc.png";
+import Partner2 from "../videos/Partner2.png";
 import bd from "../videos/bd.png";
 import mc from "../videos/DFTS_Logo.png";
-import google from "../videos/google.png";
+import Partner1 from "../videos/Partner1.png";
 
 const Partner = () => {
   return (
@@ -59,7 +59,7 @@ const Partner = () => {
 
       <div>
         <img
-          src={google}
+          src={Partner1}
           alt="Partners"
           style={{
             width: "200px",
@@ -72,7 +72,7 @@ const Partner = () => {
 
       <div>
         <img
-          src={ms}
+          src={Partner2}
           alt="Partners"
           style={{
             width: "200px",
@@ -85,7 +85,7 @@ const Partner = () => {
 
 
 
-      <div>
+      {/* <div>
         <img
           src={fc}
           alt="Partners"
@@ -96,7 +96,7 @@ const Partner = () => {
             // backgroundColor: "red",
           }}
         />
-      </div>
+      </div> */}
 
       {/* <div>
         <img
@@ -111,7 +111,7 @@ const Partner = () => {
         />
       </div> */}
 
-      <div>
+      {/* <div>
         <img
           src={apple}
           alt="Partners"
@@ -122,7 +122,7 @@ const Partner = () => {
             // backgroundColor: "red",
           }}
         />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -119,7 +119,7 @@ const Footer = () => {
             </WebsiteRight>
             <SocialIcon>
               <SocialIconLink
-                href="https://web.facebook.com/lotscharityfoundation"
+                href="https://web.facebook.com/utac21"
                 target="_blank"
                 aria-label="Facebook"
               >
@@ -127,7 +127,7 @@ const Footer = () => {
               </SocialIconLink>
               {/* 
               <SocialIconLink
-                href="https://www.youtube.com/channel/UCjHVNjp4cfxBfKRbbtUUYAg"
+                href="/"
                 target="_blank"
                 aria-label="Youtube"
               >

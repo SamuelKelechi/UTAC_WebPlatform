@@ -96,7 +96,8 @@ export default function EventFull() {
               </IconButton>
             }
             title={uploads && uploads.title}
-            subheader={moment().fromNow()}
+            subheader=
+            {moment().fromNow()}
           />
           <CardMedia
             className={classes.media}
@@ -104,7 +105,7 @@ export default function EventFull() {
             title="Paella dish"
           />
           <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant="body2" color="textSecondary" component="p" style={{ textAlign: "left" }}>
               {uploads && uploads.content}
             </Typography>
           </CardContent>
@@ -133,7 +134,7 @@ export default function EventFull() {
                 Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10
                 minutes.
           </Typography> */}
-              <Typography paragraph>
+              <Typography paragraph style={{ textAlign: "left" }}>
                 {uploads && uploads.story}
               </Typography>
               {/* <Typography paragraph>

@@ -35,16 +35,17 @@ function ContactUs() {
           <div className="theMainPart">
             <div className="theCard">
               <div className="theLOgoHolder">
-                <img src={phone} />
+                <img src={phone} alt="Phone Icon" />
               </div>
               <h3>Talk to Us</h3>
               <p>Interested in helping a child contact us now</p>
-              <Link className="Link">+2348055794628</Link>
+              <p><Link className="Link">+2348055794628</Link></p>
+              <p style={{ color: "rgb(64,169,255)" }}><b>Email: </b><i>  umbrellafortheafricanchild@gmail.com</i></p>
             </div>
 
             <div className="theCard">
               <div className="theLOgoHolder">
-                <img src={chat} />
+                <img src={chat} alt="Chat Icon" />
               </div>
               <h3>Contact Child Support</h3>
               <p>
