@@ -32,7 +32,7 @@ export default function MediaCard() {
     await db
       .collection("utac")
       .orderBy("date", "desc")
-      .limit(3)
+      .limit(2)
       .onSnapshot((snapshot) => {
         const item = [];
         snapshot.forEach((doc) => {
@@ -73,9 +73,11 @@ export default function MediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            {/* <Button size="small" color="primary">
-              Share
-            </Button> */}
+            <Link to="/event">
+              <Button size="small" color="primary">
+                Read More..
+            </Button>
+            </Link>
             <Link to="/event">
               <Button size="small" color="primary">
                 Learn More
