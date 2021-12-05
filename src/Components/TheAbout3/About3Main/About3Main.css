@@ -1,0 +1,46 @@
+.About3MainGeneralDiv {
+  height: 556px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .About3MainGeneralDiv {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .About3MainGeneralDiv {
+    margin-top: 350px;
+  }
+}
+
+.About3MainSubGeneralDiv {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.CardHold {
+  /* width: 1100px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media screen and (max-width: 768px){
+  .CardHold{
+    width: 300px;
+    flex-direction: column;
+  }
+} */
+
+.topic {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
