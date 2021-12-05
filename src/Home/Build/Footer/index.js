@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-
+import styled from 'styled-components'
 
 import Logo from '../../videos/UTAC-Logo.png'
 import YouTubeIcon from "@material-ui/icons/YouTube";
@@ -13,10 +13,6 @@ import {
   FooterContainer,
   FooterWrap,
   FooterLinksContainer,
-  FooterLinksItems,
-  FooterLinksWrapper,
-  FooterLinkTitle,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialMediaLogo,
@@ -35,63 +31,44 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinksItems>
-              <FooterLinkTitle> <Link to="/" style={{
+          <FootMenu>
+            <FootLinks> <Link to="/" style={{
                 textDecoration: "none",
-                fontWeight: "bolder",
-                color: "white",
-                fontSize: "20px"
-              }}>Home</Link> </FooterLinkTitle>
-              {/* <FooterLink to="/signin">How it work</FooterLink>
-              <FooterLink to="/signin">Testimonial</FooterLink>
-              <FooterLink to="/signin">Career</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink> */}
-            </FooterLinksItems>
-            <FooterLinksItems>
-              <FooterLinkTitle> <Link to="/event" style={{
+                color: "white"
+              }}>
+              <span >
+              Home
+              </span>
+              </Link>
+              </FootLinks>
+              <FootLinks> <Link to="/" style={{
                 textDecoration: "none",
-                fontWeight: "bolder",
-                color: "white",
-                fontSize: "20px"
-              }}>Events</Link> </FooterLinkTitle>
-              {/* <FooterLink to="/signin">How it work</FooterLink>
-              <FooterLink to="/signin">Testimonial</FooterLink>
-              <FooterLink to="/signin">Career</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink> */}
-            </FooterLinksItems>
-          </FooterLinksWrapper>
-
-          <FooterLinksWrapper>
-            <FooterLinksItems>
-              <FooterLinkTitle> <Link to="/about" style={{
+                color: "white"
+              }}>
+              <span >
+              About
+              </span>
+              </Link>
+              </FootLinks>
+              <FootLinks> <Link to="/" style={{
                 textDecoration: "none",
-                fontWeight: "bolder",
-                color: "white",
-                fontSize: "20px"
-              }}>About</Link></FooterLinkTitle>
-              {/* <FooterLink to="/signin">How it work</FooterLink>
-              <FooterLink to="/signin">Testimonial</FooterLink>
-              <FooterLink to="/signin">Career</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink> */}
-            </FooterLinksItems>
-            <FooterLinksItems>
-              <FooterLinkTitle> <Link to="/contact" style={{
+                color: "white"
+              }}>
+              <span >
+              Events
+              </span>
+              </Link>
+              </FootLinks>
+              <FootLinks> <Link to="/" style={{
                 textDecoration: "none",
-                fontWeight: "bolder",
-                color: "white",
-                fontSize: "20px"
-              }}>Contact</Link></FooterLinkTitle>
-              {/* <FooterLink to="/signin">How it work</FooterLink>
-              <FooterLink to="/signin">Testimonial</FooterLink>
-              <FooterLink to="/signin">Career</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink> */}
-            </FooterLinksItems>
-          </FooterLinksWrapper>
+                color: "white"
+              }}>
+              <span >
+              Contact
+              </span>
+              </Link>
+              </FootLinks>
+          </FootMenu>
         </FooterLinksContainer>
 
         <SocialMedia>
@@ -155,3 +132,64 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+const FootMenu = styled.div`
+ display: flex;
+ width: 310px;
+align-items: center;
+height: 100%; 
+cursor: pointer;
+justify-content: space-between;
+color : white;
+margin-right:-100px;
+
+@media screen and (max-width: 820px){
+    margin-right: 0px;
+  }
+
+a{
+  display: flex;
+  align-items: center;
+  height: 100%; 
+  position: relative;
+  color : white;
+
+  span{
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    position: relative;
+    opacity: 0.7;
+
+    /* #0E3BF2; */
+    &:after{
+      content:"";
+      position: absolute;
+      height: 2px;
+      background-color: whitesmoke;
+      right: 0;
+      left: 20px;
+      bottom: 20px;
+      opacity: 0;
+      transform: scaleX(1);
+      transform-origin: center left;
+      transition: all 350ms cubic-bezier(0.34, 0.44, 0.96, 0.47) 0s;
+    }
+  }
+
+  &:hover{
+    span{
+      opacity: 1;
+    }
+    span:after {
+      opacity: 1;
+      transform: scaleX(1.06)
+    }
+  }
+
+  
+}`
+
+const FootLinks = styled.div``

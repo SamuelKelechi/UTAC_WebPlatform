@@ -16,6 +16,7 @@ export const FooterWrap = styled.div`
 `;
 
 export const FooterLinksContainer = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 60px;
