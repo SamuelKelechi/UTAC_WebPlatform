@@ -16,6 +16,7 @@ import Trusted from "./TrustedBy";
 import NavBar from "../NavBar/index"
 import SideBar from "../SideBar/SideBar"
 import NewsFlash from "../../Event/NewsFlash"
+import GalleryFlip from "../../Components/Gallery/GaleryFlip";
 
 
 
@@ -45,6 +46,7 @@ const HomeScreen = () => {
         <Story />
         <Total />
         <SuccessStory />
+        <GalleryFlip />
         <NewsFlash />
         <Footer />
       </center>

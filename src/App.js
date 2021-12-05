@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import Event from "./Event/Event";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutPage from "./Components/AboutPage/AboutPage";
