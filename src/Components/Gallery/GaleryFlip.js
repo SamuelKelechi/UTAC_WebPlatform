@@ -67,7 +67,6 @@ height: 450px;
 width: 500px;
 margin: 5px;
 position: relative;
-background-color: blue;
 border-radius: 8px;
 @media screen and (max-width: 700px){
     width: 100%;
