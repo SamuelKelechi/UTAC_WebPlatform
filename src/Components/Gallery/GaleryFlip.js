@@ -30,6 +30,7 @@ padding: 10px;
 display: flex;
 justify-content:center;
 align-items: center;
+background-color: #F4F4F4;
 `
 const GalleryWrapper = styled.div`
 display: flex;

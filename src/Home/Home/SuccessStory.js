@@ -24,7 +24,8 @@ const SuccessStory = () => {
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
-          margin: "5px"
+          margin: "5px",
+          boxShadow: "rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset",
         }}
       >
         <div>
@@ -66,7 +67,8 @@ const SuccessStory = () => {
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
-          margin: "5px"
+          margin: "5px",
+          boxShadow: "rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset",
         }}
       >
         <div>
