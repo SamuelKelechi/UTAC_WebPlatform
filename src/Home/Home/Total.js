@@ -13,7 +13,7 @@ const Total = () => {
           color: "#5BB3B7"
         }}
       >
-        <BiArrowToRight style={{marginTop:"13px",}}/>
+        <BiArrowToRight style={{marginTop:"13px"}}/>
           <div style={{ 
           fontSize: "30px",
           fontWeight: "bolder",

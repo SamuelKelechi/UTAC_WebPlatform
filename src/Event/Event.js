@@ -10,13 +10,11 @@ import moment from 'moment'
 import { app } from "../Base";
 import pic from "../Home/videos/OutReach.jpg";
 import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
 
 
@@ -35,8 +33,8 @@ function Event() {
 
   const getData = async () => {
     await db
-      .collection("utac")
-      .orderBy("date", "desc")
+      .collection("blog")
+      .orderBy("time", "desc")
       .limit(15)
       .onSnapshot((snapshot) => {
         const item = [];
@@ -58,7 +56,7 @@ function Event() {
   useEffect(() => {
     getData();
   }, []);
-  const classes = useStyles();
+  
   return (
 
     <>
@@ -102,11 +100,35 @@ function Event() {
           </div>
         </div>
 
-        <div>
-        <div>All Blog (Events) will come here</div>
-        <div>
-        THE CARD WRAPPING HERE
-        </div>
+        <div className="EventsHolder">
+        
+          <div className="EventsWrapper">
+
+          {uploads.map(({id, title, avatar, story, time})=> (
+            <Link to={`/eventfull/${id}`}>
+            <Card key={id} sx={{ maxWidth: 345 }} style={{margin:"8px"}}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="160"
+                  image={avatar}
+                  alt="green iguana"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h6" component="div">
+                    {title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                   {story}
+                  </Typography>
+                </CardContent>
+                <p style={{textAlign:"right", paddingRight:"18px", color:"grey"}}>Posted {moment(time.toDate()).fromNow()}</p>
+              </CardActionArea>
+            </Card>
+            </Link>
+          ))}
+            
+          </div>
           
         </div>
 
@@ -118,36 +140,3 @@ function Event() {
 
 export default Event;
 
-
-
-
-
-// {uploads.map(({ id, avatar, title, content, story, date }) => (
-//   <Card key={id} className={classes.root}>
-//     <CardActionArea>
-//       <Link to={`/eventfull/${id}`}>
-//         <div
-//           style={{
-//             height: "200px",
-//             width: "100%",
-//             backgroundColor: "gray",
-//           }}
-//         >
-//           <img style={{ height: "100%", width: "100%" }} src={avatar} alt="images" />
-//         </div>
-//       </Link>
-//       <CardContent>
-//         <Typography gutterBottom variant="h5" component="h2" style={{
-//           textTransformed: "uppercase"
-//         }}>
-//           <p style={{ fontSize: "13px" }}>Posted {moment(date).fromNow()}</p>
-//           {title}
-
-//         </Typography>
-//         <Typography variant="body2" color="textSecondary" component="p">
-//           {content}
-//         </Typography>
-//       </CardContent>
-//     </CardActionArea>
-//   </Card>
-// ))}

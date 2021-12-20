@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Slide } from 'react-slideshow-image';
+// import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { Fade } from 'react-slideshow-image';
 
@@ -8,7 +8,7 @@ import { Fade } from 'react-slideshow-image';
 
 const slideImages = [
   {
-    url: 'https://firebasestorage.googleapis.com/v0/b/utacngo.appspot.com/o/1.jpg?alt=media&token=135339c4-07ac-4602-9e91-9b9e3ff70a3c',
+    url: 'https://firebasestorage.googleapis.com/v0/b/utacngo.appspot.com/o/1.jpg?alt=media&token=eb702e14-78c7-45b2-b760-5b4c24b146d6',
     // caption: 'Slide 1'
   },
   {
@@ -47,7 +47,7 @@ const Flip = () => {
         <Fade style={{width: "100%", height:"100%"}}>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide" key={index} style={{width: "100%", height:"500px"}}>
-              <div style={{width: "100%", height:"450px", backgroundPosition:"center", backgroundRepeat:"no-repeat", objectFit:"cover", borderRadius: "8px", 'backgroundImage': `url(${slideImage.url})`}}>
+              <div style={{width: "100%", height:"450px", backgroundSize:"cover", backgroundPosition:"center", backgroundRepeat:"no-repeat", objectFit:"cover", borderRadius: "8px", 'backgroundImage': `url(${slideImage.url})`}}>
                 {/* <span>{slideImage.caption}</span> */}
               </div>
             </div>

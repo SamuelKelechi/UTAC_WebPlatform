@@ -16,6 +16,47 @@ const SuccessStory = () => {
     >
 
 
+
+<div
+        style={{
+          width: "300px",
+          marginLeft: "10px",
+          // height: "150px",
+          textAlign: "left",
+          border: "1px solid lightblue",
+          padding: "20px 10px",
+          margin: "8px",
+          boxShadow: "rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset",
+        }}
+      >
+        <div>
+        UTAC (Umbrella of The African Child) is one of Africa's greatest Nonprofit organisations in the making. 
+        They have formed the organisation with the fundamentals of love and care. If there is one thing UTAC is 
+        excelling with, is spreading love and building unity across Africa as a whole. Umbrella of The African 
+        Child will never allow even a single child to go to bed on a hungry stomach. According to UTAC an injury 
+        to one is an injury to all. No African child should feel left out. Over and above UTAC is a home for everyone 
+        across the continent.
+        </div>
+        <div
+          style={{
+            backgroundColor: "#5BB3B7",
+            width: "50px",
+            height: "5px",
+            marginTop: "20px ",
+          }}
+        >
+        </div>
+        <h2
+          style={{
+            margin: "0",
+          }}
+        >
+          MAROPENG MOLAMODI (SOUTH AFRICA)
+        </h2>
+
+      </div>
+
+
       <div
         style={{
           width: "300px",
@@ -24,7 +65,7 @@ const SuccessStory = () => {
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
-          margin: "5px",
+          margin: "8px",
           boxShadow: "rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset",
         }}
       >
@@ -67,7 +108,7 @@ const SuccessStory = () => {
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
-          margin: "5px",
+          margin: "8px",
           boxShadow: "rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset",
         }}
       >
@@ -100,7 +141,8 @@ const SuccessStory = () => {
         <Link to="/testimony">
           <Button style={{
             backgroundColor: "#5BB3B7",
-            color: "white"
+            color: "white",
+            marginTop: "10px"
           }}>
             Read More..
         </Button>
