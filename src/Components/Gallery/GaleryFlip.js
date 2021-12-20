@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Flip from './Flip'
 import {GiFastForwardButton} from 'react-icons/gi'
 import Button from '@mui/material/Button';
+import {Link} from 'react-router-dom'
 
 
 const GalleryFlip = () => {
@@ -12,7 +13,7 @@ const GalleryFlip = () => {
         <GalleryWrapper>
             <TextHolder>
                 Explore Our Event Gallery and see what is new
-                <Button variant="outlined" size="large" style={{height:"50px"}}><GiFastForwardButton /></Button>
+               <Link to="/gallery" style={{textDecoration:"none"}}> <Button variant="outlined" size="" style={{height:"50px", width:"280px"}}><GiFastForwardButton /></Button></Link>
             </TextHolder>
             <FlipHolder>
                 <Flip />
@@ -30,6 +31,7 @@ padding: 10px;
 display: flex;
 justify-content:center;
 align-items: center;
+background-color: #F4F4F4;
 `
 const GalleryWrapper = styled.div`
 display: flex;

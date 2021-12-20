@@ -17,6 +17,7 @@ import NavBar from "../NavBar/index"
 import SideBar from "../SideBar/SideBar"
 import NewsFlash from "../../Event/NewsFlash"
 import GalleryFlip from "../../Components/Gallery/GaleryFlip";
+import StoryVid from "../../Components/StoryVid/StoryVid";
 
 
 
@@ -40,6 +41,7 @@ const HomeScreen = () => {
         <Partner />
         <Capture />
         <FeatureCard />
+        <StoryVid />
         <Love text="Our Community" bg="#FAB43F" img={love} />
         <MapHolder />
         <Love text="Meet Our Team" bg="#3863DF" img={love} bg1="#F4F6FC" />

@@ -16,7 +16,8 @@ const CardProps = ({ bg, img, header, detail }) => {
         color: "white",
         flexDirection: "column",
         textAlign: "left",
-        boxShadow: "0px 5px 7px -2px  rgba(0, 0, 0, 0.35)",
+        // boxShadow: "0px 5px 7px -2px  rgba(0, 0, 0, 0.35)",
+        boxShadow: "rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px",
         margin: "20px 20px",
       }}
     >

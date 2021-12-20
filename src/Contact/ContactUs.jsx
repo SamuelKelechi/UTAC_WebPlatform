@@ -52,7 +52,7 @@ function ContactUs() {
                 Sometimes you need a little help from your friends, a little touch
                 of love can change a life forever
             </p>
-              <button>Contact Support</button>
+              <button style={{cursor:"pointer"}}>Contact Support</button>
             </div>
           </div>
         </div>

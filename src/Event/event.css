@@ -53,6 +53,22 @@
   color: #036e8b;
 }
 
+.EventsHolder {
+  width: 100%;
+  margin-top:25px;
+  margin-bottom:25px;
+  display: flex;
+  justify-content: center;
+}
+
+.EventsWrapper {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+
 @media screen and (max-width: 600px) {
   .card_holder {
   }
