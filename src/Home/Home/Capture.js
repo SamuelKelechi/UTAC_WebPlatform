@@ -18,7 +18,7 @@ const Capture = () => {
         {/* <Quoting> */}
         We see an Africa where every child is
         fed and educated. An Africa where talent
-        is nurtured and mentorship is paramount.
+        is nurtured and hi mentorship is paramount.
         {/* </Quoting> */}
         <br />
         <br />
