@@ -24,6 +24,7 @@ const db = app.firestore();
 
 function AdminPage() {
   const hist = useHistory();
+  
   const [fileUrl, setFileUrl] = useState(null);
   const [title, setTitle] = useState("")
   const [story, setStory] = useState("")
